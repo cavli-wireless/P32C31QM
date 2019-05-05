@@ -70,7 +70,7 @@ If using higher speed 3G module, using hw flow controll is recomended. You can c
 9. If WiFi is configured, simple web page can be accessed on *http://192.168.4.1*. Generated page includes includes the text received from internet via PPPoS.
 
 
-#### Tested with GSM SIM800L, should also work with other SIMCOM & Telit GSM modules.
+#### Tested with Cavli C31QM (NB-IoT/LTE-M/EGPRS Module), should also work with C100QM, C10QM, C10SS, C31SS.
 
 
 **Example output:**
