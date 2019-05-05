@@ -35,7 +35,6 @@
 #include "mbedtls/certs.h"
 
 #include <esp_event.h>
-// #include <esp_wifi.h>
 
 #include "apps/sntp/sntp.h"
 #include "cJSON.h"
@@ -48,7 +47,7 @@
 
 #include "mqtt_client.h"
 
-static const char *TAG = "MQTTS_SAMPLE";
+static const char *TAG = "MQTTS";
 
 // const int CONNECTED_BIT = BIT0;
 
@@ -96,15 +95,15 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
 static void mqtt_app_start()
 {
     const esp_mqtt_client_config_t mqtt_cfg = {
-        .uri = "mqtts://b-d4e31c95-fa8c-49c0-8212-24cda1549afe-1.mq.eu-west-1.amazonaws.com",
-        .port = 8883,
-        .username = "ht_mqtt",
-        .password = "xdgeRES6Je7zdcqq",
-		.client_id = getImei(),
         // for mqtt over ssl
-        // .uri = "mqtt://api.emitter.io:8080", //for mqtt over tcp
-        // .uri = "ws://api.emitter.io:8080", //for mqtt over websocket
-        // .uri = "wss://api.emitter.io:443", //for mqtt over websocket secure
+        // .uri = "mqtt://domain:8080", //for mqtt over tcp
+        // .uri = "ws://domain:8080", //for mqtt over websocket
+        // .uri = "wss://domain.io:443", //for mqtt over websocket secure
+        .uri = "mqtts://mqtt-broker-domain",
+        .port = 8883,
+        .username = "username",
+        .password = "password",
+		.client_id = getImei(),
         .event_handle = mqtt_event_handler,
     };
 

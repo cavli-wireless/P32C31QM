@@ -563,18 +563,6 @@ static void pppos_client_task()
     	goto exit;
     }
 
-	// while(1) {
-	// 	char modRes[5];
-	// 	char *modemRes = getATResponse("AT\r\n",4,3000,0);
-	// 	modemRes = modemRes +2;
-	// 	strncpy(modRes,modemRes,2);
-	// 	modRes[2]='\0';
-	// 	ESP_LOGI(TAG, "Modem Response: %s", modRes);
-	// 	if(strcmp(modRes,GSM_OK_Str)==0){
-	// 		break;
-	// 	}
-	// }
-
 	char *imeiResp = getATResponse("AT+GSN\r\n",8,3000,0);
 	imeiResp = imeiResp +2;
 	strncpy(imei,imeiResp,15);
