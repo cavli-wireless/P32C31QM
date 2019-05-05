@@ -1,0 +1,57 @@
+dport_panic_highint_hdl.o: \
+ /Users/johnmathew/esp/esp-idf/components/esp32/dport_panic_highint_hdl.S \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/coreasm.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/hal.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/tie-asm.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/specreg.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
+ /Users/johnmathew/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
+ /Users/johnmathew/esp/esp-idf/components/esp32/include/esp_panic.h \
+ /Users/johnmathew/Documents/Cavli_Wireless/HubbleThings/P32-Series/hubble-stack-P32/build/include/sdkconfig.h \
+ /Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/soc.h
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/coreasm.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/hal.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/tie.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/tie-asm.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/specreg.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/config/system.h:
+
+/Users/johnmathew/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
+
+/Users/johnmathew/esp/esp-idf/components/esp32/include/esp_panic.h:
+
+/Users/johnmathew/Documents/Cavli_Wireless/HubbleThings/P32-Series/hubble-stack-P32/build/include/sdkconfig.h:
+
+/Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/Users/johnmathew/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+/Users/johnmathew/esp/esp-idf/components/esp32/./dport_panic_highint_hdl.S:
