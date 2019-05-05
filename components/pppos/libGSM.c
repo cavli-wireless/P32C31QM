@@ -1,4 +1,4 @@
-/* PPPoS Client Example with GSM (tested with Telit GL865-DUAL-V3)
+/* PPPoS Client Example with GSM (tested with Cavli C31QM)
 
    This example code is in the Public Domain (or CC0 licensed, at your option.)
 
