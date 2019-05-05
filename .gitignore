@@ -1,2 +1,5 @@
 #Ignore all vscode files
-.vscode
+.vscode/
+
+#Ignore all build files
+build/
