@@ -1,5 +1,6 @@
 #Ignore all vscode files
 .vscode/
+.vscode/ipch/
 
 #Ignore all build files
 build/
